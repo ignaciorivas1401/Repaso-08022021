@@ -1,0 +1,22 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.carousel-indicators {
+    position: relative;
+}
+
+.carousel-indicators li {
+    width: 1rem;
+    height: 1rem;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.disabled {
+    background-color: #cccccc !important;
+    color: #ffffff !important;
+    cursor: not-allowed !important;
+    border-color: #cccccc !important;
+}
